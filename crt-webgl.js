@@ -255,9 +255,9 @@ function setupPane() {
   scanlines.addBinding(params, 'adaptiveIntensity', { min: 0, max: 1, step: 0.01, label: 'Adaptive' });
 
   const color = pane.addFolder({ title: 'Color', expanded: true });
-  color.addBinding(params, 'brightness', { min: 0.6, max: 1.8, step: 0.01 });
-  color.addBinding(params, 'contrast', { min: 0.6, max: 1.8, step: 0.01 });
-  color.addBinding(params, 'saturation', { min: 0, max: 2, step: 0.01 });
+  color.addBinding(params, 'brightness', { min: 0.6, max: 1.8, step: 0.01, label: 'Brightness' });
+  color.addBinding(params, 'contrast', { min: 0.6, max: 1.8, step: 0.01, label: 'Contrast' });
+  color.addBinding(params, 'saturation', { min: 0, max: 2, step: 0.01, label: 'Saturation' });
 
   const bloom = pane.addFolder({ title: 'Bloom', expanded: true });
   bloom.addBinding(params, 'bloomIntensity', { min: 0, max: 1.5, step: 0.01, label: 'Intensity' });
