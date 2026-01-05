@@ -238,7 +238,7 @@ function resize() {
 }
 
 function setupPane() {
-  const pane = new Pane({ title: 'CRT Shader', expanded: true });
+  const pane = new Pane({ title: 'WebGL CRT Shader', expanded: true });
   pane.element.style.position = 'fixed';
   pane.element.style.top = `${PANE_OFFSET}px`;
   pane.element.style.right = `${PANE_OFFSET}px`;
