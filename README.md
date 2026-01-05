@@ -6,7 +6,7 @@ If you use this in your game/app/website I'd love to hear about it.
 
 ## About
 
-This is a WebGL GLSL shader intended for use in web browsers.
+This is a WebGL shader, written in GLSL, intended for use in web browsers.
 
 - Runs on the device’s **hardware GPU**
 - Browser provides the WebGL interface and safety checks
@@ -27,7 +27,7 @@ This is a WebGL GLSL shader intended for use in web browsers.
 
 ## Announcement blog post
 
-- [blog.gingerbeardman.com/2026/01/04/glsl-web-crt-shader/](https://blog.gingerbeardman.com/2026/01/04/glsl-web-crt-shader/)
+- [blog.gingerbeardman.com/2026/01/04/webgl-crt-shader/](https://blog.gingerbeardman.com/2026/01/04/webgl-crt-shader/)
 
 ## Screenshot
 
