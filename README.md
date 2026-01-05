@@ -2,7 +2,7 @@
 
 Tweakable CRT shader for web canvas, three.js, etc.
 
-If you use this in your game/app/website I'd love to know.
+If you use this in your game/app/website I'd love to hear about it.
 
 ## Try it
 
