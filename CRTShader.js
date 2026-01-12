@@ -110,9 +110,9 @@ export const CRTShader = {
       if (bloomIntensity > 0.001) {
         float pixelLum = dot(pixel.rgb, LUMA);
         // Only sample bloom if pixel is above threshold
-        if (pixelLum > bloomThreshold) {
-          float scaledRadius = 0.005 * clamp(bloomIntensity * 2.0, 0.5, 1.0);
-          vec4 bloomSample = sampleBloom(tDiffuse, uv, scaledRadius, pixel);
+        float bloomThresholdHalf = bloomThreshold * BLOOM_THRESHOLD_FACTOR;
+        if (pixelLum > bloomThresholdHalf) {
+          vec4 bloomSample = sampleBloom(tDiffuse, uv, 0.005, pixel);
           bloomSample.rgb *= brightness;
           float bloomLum = dot(bloomSample.rgb, LUMA);
           float bloomFactor = bloomIntensity * max(0.0, (bloomLum - bloomThreshold) * BLOOM_FACTOR_MULT);
